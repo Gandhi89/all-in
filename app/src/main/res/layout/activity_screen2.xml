@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2">
+
+    <Button
+        android:id="@+id/screen2_notification"
+        style="@style/screen2_button"
+        android:onClick="showNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/screen2_notification_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/screen2_jobScheduler"
+        style="@style/screen2_button"
+        android:onClick="setTaskScheduler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/screen2_jobSchedular_button"
+        app:layout_constraintEnd_toEndOf="@+id/screen2_notification"
+        app:layout_constraintStart_toStartOf="@+id/screen2_notification"
+        app:layout_constraintTop_toBottomOf="@+id/screen2_notification" />
+</android.support.constraint.ConstraintLayout>

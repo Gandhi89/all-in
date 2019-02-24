@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">All-In</string>
+    <string name="settings_pref_checkBox_key" translatable="false">pref_checkBox1</string>
+    <string name="settings_pref_checkBox_title">Are you handsome?</string>
+    <string name="listView_default_value" translatable="false">India</string>
+    <string name="listView_default_title" translatable="false">Country</string>
+    <string name="listView_key" translatable="false">listView1</string>
+    <string name="screen2_notification_button" translatable="false">Notification</string>
+    <string name="screen2_jobSchedular_button" translatable="false">Job Scheduler</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <array name="settings_listPreference_entry">
+        <item>India</item>
+        <item>Rasia</item>
+        <item>China</item>
+    </array>
+    <array name="settings_listPreference_entry_value">
+        <item>India</item>
+        <item>Rasia</item>
+        <item>China</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">sab kuch ek main</string>
+    <string name="settings_pref_checkBox_title">Kya aap khubsurat ho?</string>
+    <string name="navigation_drawer_open">navigation drawer ko khol do</string>
+    <string name="navigation_drawer_close">navigation drawer ko bandh karo</string>
+</resources>
